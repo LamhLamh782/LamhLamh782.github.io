@@ -1,0 +1,72 @@
+body{
+
+    background-color: gray;
+    
+}
+.navbar{
+    float: right;
+    list-style-type: none;
+}
+.logo img{
+    width: 80px;
+    height: 70px;
+    float: left;
+    
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color:white;
+    cursor: pointer;
+    padding: 8px 23px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 15%;
+
+}
+.navbar li a:hover{
+    
+    font-weight: bold;
+    
+}
+.text{
+    color: white;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 5%;
+}
+.contact{
+    color: white;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 65%;
+}
+#email{
+    border: 1px white solid;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+
+}
+#password{
+    border: 1px white solid;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+}
+#text{
+    padding: 1px 98px;
+    
+    
+}
+#text p{
+    color: white;
+}
+.map {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.map iframe{
+    width: 1200px;
+    height:500px ;
+}

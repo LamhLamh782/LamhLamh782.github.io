@@ -1,0 +1,72 @@
+body{
+    background-image: url(../shop/image/back.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.container .navbar{
+    float: right;
+    list-style-type: none;
+}
+.container .logo img{
+    width: 80px;
+    height: 70px;
+    float: left;
+    
+    
+}
+
+.container .navbar li{
+    display: inline-block;
+}
+.container .navbar li a{
+    color:white;
+    cursor: pointer;
+    padding: 8px 23px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 15%;
+
+}
+.container .navbar li a:hover{
+    
+    font-weight: bold;
+    
+}
+.intro{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 35%;
+}
+.intro h2{
+    color: rgb(136, 131, 131);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.intro p{
+    color: rgb(90, 88, 88);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.intro .signin,.signup{
+    padding: 10px 25px;
+    border-radius: 10%;
+    border: 1px solid gray;
+    font-size: 1em;
+    
+    background-color: gray;
+    color: white;
+}
+.intro .signin{
+    margin-left: 20%;
+}
+.intro .signin:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.intro .signup:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
